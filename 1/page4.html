@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <XML ID="dsoPRODUCTS" SRC="./xml/data.xml"></XML>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <title> ОАО "Золотой шанс"</title>
+        <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600;700;900&family=Play:wght@400;700&display=swap"
+    rel="stylesheet">
+    </head>
+    <body>
+        
+       <div class="container">
+        <header class="header">
+            <img src="иконка.svg", alt="logotype" class="header__logo">
+            <ul class="header__menu">
+                <li class="menu__item"><a href="./page1.html" class="menu__link">Главная</a></li>
+                <li class="menu__item"><a href="./page2.html" class="menu__link">О нас</a></li>
+                <li class="menu__item"><a href="./page3.html" class="menu__link">Контактная Информация</a></li>
+                <li class="menu__item"><a href="./page4.html" class="menu__link">Интернет магазин</a></li>
+            </ul>
+        </div>
+        </header> 
+        <main class="main">
+            <section class="catalog">
+                <div class="container">
+                    <h2 class="catalog__title">Каталог</h2>
+                    <div class="tabs">
+                        <div class="tabs__btns">
+                            <button class="tabs__btns-item tabs__btns-item--active" data-button="content-1">Учереждения образования</button>
+                            <button class="tabs__btns-item" data-button="content-2">Индивидуальные предприятия</button>
+                            <button class="tabs__btns-item" data-button="content-3">Открытое Акционерное Общество</button>
+                            <button class="tabs__btns-item" data-button="content-4">Общество с Ограниченной Ответственностью</button>
+                        </div>
+                        <div class="tabs__content">
+                            <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Учитель1.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">Школа №4</h4>
+                                    <p class="tabs__card-subtitle">Учитель информатики</p>
+                                    <p class="tabs__card-price">1 057р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Учитель.png" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">Школа №6</h4>
+                                    <p class="tabs__card-subtitle">Учитель русского языка</p>
+                                    <p class="tabs__card-price">1 083р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Уборщица.png" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">Школа №7</h4>
+                                    <p class="tabs__card-subtitle">Уборщик</p>
+                                    <p class="tabs__card-price">1 092р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item tabs__content-item" id="content-2">
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Наборщик текста.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ИП Иванов Иван Иванович</h4>
+                                    <p class="tabs__card-subtitle">Наборщик текста</p>
+                                    <p class="tabs__card-price">1 057р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Кассир.png" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ИП Богомолов Петр Борисович</h4>
+                                    <p class="tabs__card-subtitle">Кассир</p>
+                                    <p class="tabs__card-price">1 083р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Переводчик.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ИП Ульянова Татьяна Семеновна </h4>
+                                    <p class="tabs__card-subtitle">Переводчи</p>
+                                    <p class="tabs__card-price">1 092р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Уборщица.png" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ИП Петров Петр Петрович</h4>
+                                    <p class="tabs__card-subtitle">Уборщик</p>
+                                    <p class="tabs__card-price">1 092р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-3">
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Оператор станка.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ОАО "Фандок"</h4>
+                                    <p class="tabs__card-subtitle">Оператор станка</p>
+                                    <p class="tabs__card-price">1 466р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Инкассатор.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ОАО "Белбанк"</h4>
+                                    <p class="tabs__card-subtitle">Инкасатор</p>
+                                    <p class="tabs__card-price">1 079р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-4">
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Прораб.png" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ООО стройресурс</h4>
+                                    <p class="tabs__card-subtitle">Прораб</p>
+                                    <p class="tabs__card-price">1 075р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                                <div class="tabs__card">
+                                    <img src="./img/catalog-tabs/Бухгалтер.jpg" alt="" class="tabs__card-img">
+                                    <h4 class="tabs__card-title">ООО Речные технологии</h4>
+                                    <p class="tabs__card-subtitle">Бухгалтер</p>
+                                    <p class="tabs__card-price">1 045р.</p>
+                                    <a href="#" class="tabs__card-link">подробнее...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            
+            <div class="info">
+                <p class="adres__info"> Адрес:  ул. Великий гостинец 24, г. Минск, Минский район РБ </p>
+                <p class="phonenumber__info"> Телефон: +375292984236</p>
+                <p class="email__info"> Почта: tvintree@mail.ru</p>
+            </div>
+            <img src="иконка.svg", alt="logotype" class="footer__logo">
+            
+        </footer>  
+    </div>
+    <script src="./js/tabs.js"></script>
+
+    </body>
+    
+</html>
